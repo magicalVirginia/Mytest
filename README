@@ -1,0 +1,17 @@
+this is a test file
+
+//create a new repository on the command line
+yong mimg ling hang chaung jian xin cang ku 
+echo "# Mytest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/magicalVirginia/Mytest.git
+git push -u origin main
+
+//push an existing repository from the command line
+yong ming ling hang tui song ben di cang ku
+git remote add origin https://github.com/magicalVirginia/Mytest.git
+git branch -M main
+git push -u origin main
